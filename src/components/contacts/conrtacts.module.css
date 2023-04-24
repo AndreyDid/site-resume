@@ -1,0 +1,41 @@
+.contacts {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    margin: 0 0 40px 0;
+}
+
+.social {
+    margin: 0 40px 0 0;
+    height: 80px;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow:
+    2px 2px 5px var(--shadow),
+    -2px -2px 5px var(--shadow-light);
+    transition: box-shadow .2s;
+    border-radius: 5px;
+    background-color: transparent;
+}
+.social:hover {
+    box-shadow: 6px 6px 8px var(--shadow),
+    -6px -6px 6px var(--shadow-light);
+}
+.social:active {
+    box-shadow:
+    2px 2px 2px var(--shadow),
+    -2px -2px 2px var(--shadow-light);
+}
+
+.contactsIcon {
+    height: 50px;
+}
+
+.contactsIcon:hover {
+    filter: grayscale(0);
+}
