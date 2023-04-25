@@ -39,3 +39,12 @@
 .contactsIcon:hover {
     filter: grayscale(0);
 }
+
+@media screen and (width < 765px) {
+    .social {
+        margin: 10px;
+    }
+    .contacts {
+        flex-wrap: wrap;
+    }
+}

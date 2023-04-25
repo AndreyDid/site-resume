@@ -18,3 +18,12 @@
     height: 80px;
     margin: 0 0 10px 0;
 }
+
+@media screen and (width < 765px) {
+    .imgWrapper {
+        margin: 10px;
+    }
+    .skillsContainer {
+        flex-wrap: wrap;
+    }
+}
