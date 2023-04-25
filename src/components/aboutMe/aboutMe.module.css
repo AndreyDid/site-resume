@@ -36,12 +36,7 @@
     .aboutMe {
         margin: 0 0 10px 0;
         flex-direction: column;
-    }
-
-    .imgProject {
-        margin: 0 0 20px 0;
-        border-right: none;
-        border-bottom: 1px solid var(--header-gray-color);
+        align-items: center;
     }
 
     .avatarImg {
