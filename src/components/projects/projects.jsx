@@ -7,7 +7,7 @@ const Projects = () => {
     return (
         <div className={classes.container} id="scrollspyProject">
             <h1 className={classes.title}>Проекты</h1>
-            {portfolio.map(({title, description, url, techs, image, urlGitHubImg}) => (
+            {portfolio.map(({title, description, url, techs, image, urlGitHubImg, ghPages}) => (
                 <div key={url} className={classes.projects}>
                     <img src={image} alt={title} className={classes.imgProject}/>
                     <div className={classes.textProject}>
@@ -16,6 +16,10 @@ const Projects = () => {
                         <hr/>
                         <p>{techs}</p>
                         <div>
+
+                        </div>
+                        <div>
+                            <a href={ghPages} target="_blank" className={classes.ghPages}>{ghPages === ''? '' : 'GhPages'}</a>
                             <a href={url} target="_blank"><img src={urlGitHubImg}
                                                                alt="github"
                                                                title='Проект на GitHub'

@@ -1,4 +1,5 @@
 import expenseApp from "../assets/images/expense-app.png"
+import terminalsApp from "../assets/images/terminals-app.png"
 import gitImg from "../assets/images/github.png"
 import htmlImg from "../assets/images/skills/html.png"
 import cssImg from "../assets/images/skills/css.png"
@@ -12,7 +13,17 @@ export const portfolioData = [
         url: "https://github.com/AndreyDid/expense-app",
         urlGitHubImg: gitImg,
         techs: "ReactJS, Redux, NodeJS, MongoDB",
-        image: expenseApp
+        image: expenseApp,
+        ghPages: ''
+    },
+    {
+        title: "Terminals App",
+        description: "Приложение для учета выполненной работы (сборка терминалов). Pet-проект",
+        url: "https://github.com/AndreyDid/terminals",
+        urlGitHubImg: gitImg,
+        techs: "ReactJS, Redux, NodeJS, FireBase",
+        image: terminalsApp,
+        ghPages: "https://andreydid.github.io/terminals/"
     },
 ]
 
