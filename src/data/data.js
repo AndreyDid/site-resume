@@ -12,16 +12,16 @@ export const portfolioData = [
         description: "Приложение для отслеживания расходов и доходов. Full-stack SPA. Pet-проект",
         url: "https://github.com/AndreyDid/expense-app",
         urlGitHubImg: gitImg,
-        techs: "ReactJS, Redux, NodeJS, MongoDB",
+        techs: "React JS, Redux, NodeJS, MongoDB",
         image: expenseApp,
-        ghPages: ''
+        ghPages: 'http://expenseapp.ru/'
     },
     {
         title: "Terminals App",
         description: "Приложение для учета выполненной работы (сборка терминалов). Pet-проект",
         url: "https://github.com/AndreyDid/terminals",
         urlGitHubImg: gitImg,
-        techs: "ReactJS, Redux, NodeJS, FireBase",
+        techs: "React JS, Redux, FireBase",
         image: terminalsApp,
         ghPages: "https://andreydid.github.io/terminals/"
     },
@@ -39,7 +39,7 @@ export const skillsData = [
         title: "JavaScript",
         image: jsImg
     },{
-        title: "ReactJS",
+        title: "React JS",
         image: reactImg
     },
 ]

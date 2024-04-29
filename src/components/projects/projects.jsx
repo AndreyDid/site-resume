@@ -19,7 +19,7 @@ const Projects = () => {
 
                         </div>
                         <div>
-                            <a href={ghPages} target="_blank" className={classes.ghPages}>{ghPages === ''? '' : 'GhPages'}</a>
+                            <a href={ghPages} target="_blank" className={classes.ghPages}>{ghPages === ''? '' : 'Посмотреть демо'}</a>
                             <a href={url} target="_blank"><img src={urlGitHubImg}
                                                                alt="github"
                                                                title='Проект на GitHub'
