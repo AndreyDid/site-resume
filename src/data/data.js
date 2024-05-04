@@ -14,7 +14,7 @@ export const portfolioData = [
         urlGitHubImg: gitImg,
         techs: "React JS, Redux, NodeJS, MongoDB",
         image: expenseApp,
-        ghPages: 'http://expenseapp.ru/'
+        ghPages: 'http://89.111.137.164/'
     },
     {
         title: "Terminals App",
