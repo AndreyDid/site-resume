@@ -22,7 +22,7 @@ const AboutMe = () => {
             <img src={avatar} alt="avatar" className={classes.avatarImg}/>
             <div>
                 <h1>Андрей Диденко</h1>
-                <h3>ФРОНТЭНД-РАЗРАБОТЧИК</h3>
+                <h3>ФРОНТЕНД-РАЗРАБОТЧИК</h3>
                 <p>14 июля 1991 г. ({getAge('1991-07-14')})</p>
                 <p>Россия / Курск</p>
                 <hr/>
